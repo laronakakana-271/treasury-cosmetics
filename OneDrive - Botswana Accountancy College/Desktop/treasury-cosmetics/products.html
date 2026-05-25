@@ -1,100 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Treasury Cosmetics Products</title>
-        <style>
-            .grid-container {
-              display: grid;
-            grid-template-columns: 33% 33% 33%;
-         }
-      </style>  
-    
-    </head>
-    <body>
-        <header>
-        <h1>TREASURY COSMETICS PRODUCTS</h1>
-                
-    
-            <nav>
-            <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="cart.html">Cart</a>
-            </nav>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treasury Cosmetics Procucts</title>
+<!-- link to css file -->
+      <link rel="stylesheet" href="style.css">
+      </head>
+      
+      <body>
+        <!-- Header -->
+         <header>
+          <div class="container header-container">
+            <a href="#" class="logo">
+              <div class="logo-text">Treasury<span>Cosmetics</span></div>
+              </a>
 
-         <div class="grid-container">
-            <div>
-                <h2>MAKEUP</h2>
-                <div style="overflow:auto;white-space:nowrap;">
-                    <h3>LIPGLOSS</h3>
-                    
-                    <img src="lipgloss1.jpg.webp" alt="glow bomb high-shine gloss stick" width="550" height="650">
-                    <ul>
-                        <li>GLOSS BOMB STIX HIGH-SHINE GLOSS STICK</li>
-                    </ul>
-                    <ul>
-                        <li>Buildable + shimmering lip color packed with Squalane,Vitamin E and Shea Butter.
-                            Locks in moisture for up to 8 hours.</li>
-                    </ul>
-                    <ul>
-                        <li>P299</li>
-                    </ul>
-                    <button>Quick Shop</button>
-                    
-                    <img src="lipgloss 2.jpg.webp" alt="fenty treatz hydrating lip oil" width="550" height="650">
-                    <ul>
-                        <li>FENTY TREATZ HYDRATING LIP OIL</li>
-                    </ul>
-                    <ul>
-                        <li>Lip oil that instantly hydrates + strengthens lips moisture barrier</li>
-                    </ul>
-                    <ul>
-                        <li>P414</li>
-                    </ul>
-                    <button>Quick Shop</button>
+               <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+            </div>
+         </header>
 
-                    <img src="lipgloss 3.webp" alt="peptide lip tint" width="550" height="650">
-                    <ul>
-                        <li>PEPTIDE LIP TINT</li>
-                    </ul>
-                    <ul>
-                        <li>A nourishing formula with a hint of tint and pearl that hydrates and replenishes
-                            lip while leaving a glossy,high-shine finish.</li>
-                    </ul>
-                    <ul>
-                        <li>P350</li>
-                    </ul>
-                    <button>Quick Shop</button>
+         <!-- Hero Section -->
+          <section class="hero">
+            <div class="container">
+              <div class="hero-content">
+                <div class="hero-subtitle">
+              </div>
 
-                    <img src="lipgloss 4.webp" alt="extreme shine gift set" width="550" height="650">
-                    <ul>
-                        <li>EXTREME SHINE GIFT SET</li>
-                    </ul>
-                    <ul>
-                        <li>Lip gloss gift set includes best selling extreme Shine Lip gloss shades:01,02,10 and 102.
-                            From clear sheen to sparkling brilliance,there's a shade to achieve ang holiday lip 
-                            look for any occasion.</li>
-                    </ul>
-                    <ul>
-                        <li>P550</li>
-                    </ul>
-                    <button>Quick Shop</button>
+         <h1 class="hero-title">Treasury Cosmetics Products<br><span>Explore our Collection</span></h1>
+              <p class="hero-text">From shades that do more to effortlessly expressive colour.Explore our collection</p>
+        </div>
+        <img src="heroimage101.jpg" alt=""  height="800px" width="1280px">
+        </div>
+      </section>
+
+ <!-- Products Section -->
+           <section class="products" id="products">
+           <div class="container">
+            <div class="section-header">
+              <h2 class="section-subtitle">Makeup Products</h2>
+              <p class="section-desc">Explore our makeup collections</p>
+            </div> 
+            
+            <div class="product-grid">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="lipgloss 2.jpg.webp" alt="FENTY TREATS HYDRATING LIP OIL">
                 </div>
-                    
+                <div class="product-info">
+                  <h3 class="product-title">FENTY TREATS HYDRATING LIP OIL</h3>
+                  <p class="product-desc">Lip oil that instantly hydrates + strengthens lip moisture barrier.Antioxidant-rich formula defends lips 
+                    against environmental stressors and nourishes dry,chapped lips</p>
+                    <div class="product-footer">
+                    <div class="product-price">P480.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="lipgloss1.jpg.webp" alt="glow bomb">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">GLOW BOMB HIGH-SHINE GLOSS STICK</h3>
+                  <p class="product-desc">Buildable + shimmering  lip color packed with Squalane,Vitamin E and shea butter.Locks in moisture for up to 8 hours.</p>
+                    <div class="product-footer">
+                    <div class="product-price">P325.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+
+
+                <div class="product-card">
+                <div class="product-img">
+                  <img src="lipgloss5.1.webp" alt="gloss bomb universal">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">GLOSS BOMB UNIVERSAL LIP LUMINIZER</h3>
+                  <p class="product-desc">Enhances volume instantly and over time..</p>
+                    <div class="product-footer">
+                    <div class="product-price">P425.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
 
 
 
+<div class="product-card">
+                <div class="product-img">
+                  <img src="A111.jpg"   alt="instant wamth">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">SUN STALK'R INSTANT WARMTH BRONZER</h3>
+                  <p class="product-desc">Longwear,transfer-resistant powder bronzer that brings
+                     all skin tones to life with aninstant sun-soaked glow</p>
+                    <div class="product-footer">
+                    <div class="product-price">P400.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+
+
+<div class="product-card">
+                <div class="product-img">
+                  <img src="A222.webp" alt="longwear foundation">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">PRO FILT'R SOFT MATTE LONGWEAR FOUNDATION</h3>
+                  <p class="product-desc">Buildable medium to full coverage foundation
+                     withclimate -adaptive technology to fight heat,sweat + shine</p>
+                    <div class="product-footer">
+                    <div class="product-price">P283.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+
+
+<div class="product-card">
+                <div class="product-img">
+                  <img src="A333.webp" alt="waterproof pencil">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">TRACE'D OUT LONGWEAR WATERPROOF PENCIL LIP LINER</h3>
+                  <p class="product-desc">Creamy,true-cast colors with no ash or drag ,Universally flattersn + lasts 8 hours.</p>
+                    <div class="product-footer">
+                    <div class="product-price">P368.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="A444.webp" alt="gloss duo">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">POPPIN' LIQUID BLUSH + GLOSS DUO</h3>
+                  <p class="product-desc">This long lasting blush + shimmering lip gloss are the key to a poppin' makeup look</p>
+                    <div class="product-footer">
+                    <div class="product-price">P752.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div> 
+              
+              
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="A555.webp" alt="thick mascara">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">HELLA THICC VOLUMERIZING MASCARA</h3>
+                  <p class="product-desc">Up the volume of your lash impact and your competition won't
+                     know what hit'em inspired by the mistress of mayhem,Jinx</p>
+                    <div class="product-footer">
+                    <div class="product-price">P520.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="A666.webp" alt="">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">PEPTIDE LIP-TINT</h3>
+                  <p class="product-desc">A nourishing formula with a hint of tint and pearlthat hydrates
+                     and replinshes lip while leaving a glossy,high-shine finish</p>
+                    <div class="product-footer">
+                    <div class="product-price">P299.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           </section>
+
+
+          <!-- Products section -->
+          <section class="products" id="products">
+           <div class="container">
+            <div class="section-header">
+              <h2 class="section-subtitle">Skincare Products</h2>
+              <p class="section-desc">Explore our skincare collections</p>
+            </div>   
             
-        
+               <div class="product-grid">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="B111.webp" alt="face mask">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">DEW N PLUMP INTENSE HYDRATION SLUSHIE OVERNIGHT FACE MASK</h3>
+                  <p class="product-desc">Drench your skin in a moisture barrier-strengthening gel mask bursting with
+                    Polyglutamic and hyaluronic acidand hydration-boosting oil bubbles.</p>
+                    <div class="product-footer">
+                    <div class="product-price">P601.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div> 
+              
+              
+              <div class="product-grid">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="B222.webp" alt="intensive recovery">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">HYDRA' RESET INTENSIVE RECOVERY GLYCERIN HAND LOTION</h3>
+                  <p class="product-desc">Wake up with cloud -soft hands thanks  to 40% moisture-locking Glycerin,
+                    fruit oils and plant extracts.
+                  </p>
+                    <div class="product-footer">
+                    <div class="product-price">P313.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              
+              
+              <div class="product-grid">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="B333.webp" alt="hand mask">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">THICC SMOOTH RICH PEPTIDE EYE CREAM </h3>
+                  <p class="product-desc">Say goodbye to undereye dryness and dark circles with a do-it-all eye cream</p>
+                    <div class="product-footer">
+                    <div class="product-price">P533.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              
+              
+              <div class="product-grid">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="B444.webp" alt="body mist">
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">LIL' MISTS MINI BODY MIST DUO</h3>
+                  <p class="product-desc">Mist your body + own your vibe with this mini body mist duo in two irressitable scents 
+                    that linger:Vanilla flowers,a floral gourmand  + Hey,Bouquet,a bold floral</p>
+                    <div class="product-footer">
+                    <div class="product-price">P480.00</div>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+            
+            
+            <!-- Footer -->
+                    <footer>
+                      <div class="container">
+                        <div class="footer-content">
+                          <div class="footer-column">
+                            <h3>AboutTreasury Cosmetics</h3>
+                            <p style="color: var(--coffee-accent); margin-bottom:
+                            20px;">Treasury Cosmetics is dedicated to offering quality
+                            makeup and skincare products</p>
+                            <div class="social links">
+                              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                              <a href="#"><i class="fa-brands fa-twitter"></i>></a>
+                            </div>
+                          </div>
+
+                          <div class="footer-column">
+                            <h3>Quick links</h3>
+                            <ul class="footer-links"> 
+                              <li><a href="#">Treasury Cosmetic Guide</a></li>
+                              <li><a href="#">Treasury Cosmetic Guide</a></li>
+                              <li><a href="#">Treasury Cosmetic Guide</a></li>
+                            </ul>
+                          </div>
+
+                          <div class="footer-column">
+                            <h3>Contact Us</h3>
+                            <ul class="footer-links">
+                              <li><i class="fa-solid fa-location-dot"></i>Plot 4677 Mafitlhakgosi,Tlokweng.</li>
+                              <li><i class="fa-solid fa-phone"></i>+26772568547</li>
+                              <li><i class="fa-solid fa-clock"></i>Mon-Sat: 7am-8pm</li>
+                              <li><i class="fa-solid fa-envelope"></i>treasurycosmetics@gmail.com</li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="copyright">
+                          &copy; 2026 Treasury Cosmetics. All rights reserved.
+                        </div>
+                      </div>
+                      </footer>
+
+<!-- link to JavaScript file-->
+ <script src="script.js"></script>
+ </body>
 
 
-            
-            
-                
 
-            
-                
-            
-    </body>
-    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
