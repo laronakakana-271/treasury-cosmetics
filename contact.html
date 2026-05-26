@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+* {
+    box-sizing: border-box;
+}
+/*Header */
+         header {
+            padding: 30px;
+            text-align: center;
+            background: blueviolet;
+            color: black;
+         }
+
+         /* Top navigation bar */
+         .topnav {
+            overflow: hidden;
+            background-color: blueviolet;
+         } 
+         .topnav a {
+            float: left;
+            color: black; 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+         }
+         .topnav a:hover {
+            background-color: grey;
+            color: white;
+         }
+         .topnav a.active {
+            background-color: grey
+            color: black;
+         }
+         /* Column Container */
+         .container {
+         display: flex;
+         flex-wrap: wrap;
+         } 
+
+        /* Main column */
+       .main {
+      flex: 100%;
+      background-color: blueviolet;
+      padding: 20px;
+      }
+      /* Footer */
+      footer {
+      padding: 20px;
+      text-align: center;
+      background: blueviolet;
+      }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 15x;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: blueviolet;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+        <header>
+         <h1>Contact Us</h1>
+        
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <h2>Contact Form</h2>
+            
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="your@email.com">
+
+     <label for="subject">Subject</label>
+    <select id="subject" name="subject">
+      <option value="order status">Order Status</option>
+      <option value="product question">Product Question</option>
+      <option value="feedback">Feedback</option>
+      <option value="report an issue">Report an issue</option>
+      <option value="other">Other</option>
+    </select> 
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+
+
+
+
+        
+
+ 
+
+    <footer> 
+
+        <p>&copy; 2026 Treasury Cosmetics</p>
+
+         </footer>
+    </body>
+</html>
